@@ -1,0 +1,979 @@
+# Default Language - Client Side
+#
+
+# LOG IN SCREEN/SIGN OUT BUTTON
+SgnMessage=CONNECTEZ-VOUS À VOTRE COMPTE
+SgnButton=CONNEXION
+SgnAccount=NOM DU COMPTE
+SgnPassword=MOT DE PASSE
+SgnInvalidAccount=Compte invalide
+SgnSystemNotAvail=Système non disponible
+SgnInvalidSession=Session invalide
+SgnSessionProblem=Problème de session
+
+# MAIN MENU
+
+# AppDescription=Confidence in Care
+AppButtonToDo=Liste de tâches
+AppButtonStatus=Statut
+AppButtonLibrary=Bibliothèque
+AppButtonDashboard=Tableau de bord
+AppButtonEvents=Événements
+AppButtonTests=Tests
+AppButtonScheduling=Planification
+AppButtonEquipment=Équipement
+AppButtonSystemData=Données système
+AppButtonCompliance=Conformité
+AppButtonExport=Revue
+
+# Screen titles (for secondary nav bar)
+###########################################
+#Events
+ScrEventList=Liste des événements
+ScrClinicalDates=Dates Cliniques
+#Review
+ScrReports=Rapports
+ScrPlotData=Tracer les données
+ScrTestResults=Résultats des tests
+#Tests
+ScrTestList=Liste de tests
+ScrTestGroups=Groupes de test
+ScrFileUpload=Téléchargement de fichier
+ScrTestMerge=Test de fusion
+#Schedule
+ScrScheduleSearch=Rechercher
+#Equipment
+ScrMachines=Machines
+ScrMachineTypes=Types de machines
+ScrMachineGroups=Groupes de Machines
+ScrMachineComponents=Composants de machine
+ScrMachineComponentMapping=Cartographie des composants de la machine
+ScrWorkstations=Stations de travail
+#Compliance
+ScrMachineCompliance=Conformité des machines
+ScrPolicyCompliance=Conformité aux politiques
+#System Data
+ScrTimePeriods=Périodes de temps
+ScrHolidays=Vacances
+ScrUnits=Unités
+ScrTestRuns=Exécutions de tests
+ScrSystemSettings=Paramètres du système
+ScrReviewTest=Revue de test
+#common
+#############################################################
+LblMachine=Machine
+LblName=Nom
+LblID=ID
+LblVersion=Version
+LblDescription=Description
+LblMachineStatus=Statut de la machine
+LblComments=Commentaires
+LblDateRange=Plage de dates
+LblEventList=Liste des événements
+LblDate=Date
+LblTestName=Nom du Test
+LblListOrder=Ordre de la liste
+LblTestInstance=Instance de test
+LblEndDate=Date de fin
+LblMachineComponents=Composants de machine
+LblCompliance=Conformité
+LblPolicy=Politique
+LblLabel=Étiquette
+LblOf=de
+
+ColComplete=Complet
+ColMachineStatus=Statut de la machine
+ColPeriod=Point
+ColName=Nom
+ColTimestamp=Horodatage
+ColType=Type
+ColComments=Comment
+ColScheduled=Planifié
+ColMachine=Machine
+ColDescription=Description
+ColDate=Date
+ColLabel=Étiquette
+ColValue=Valeur
+
+BtnSearch=Recherche
+BtnSave=Enregistrer
+BtnCancel=Annuler
+BtnDelete=Supprimer
+BtnMap=Carte
+BtnPrev=Précédent
+BtnNext=Suivant
+
+MsgNoEvents=Il n'y a aucun événement.
+MsgSelectMachine=Veuillez sélectionner une machine
+MsgCommentRequired=Commentaire requis pour changement de statut
+MsgNoData=--Aucune donnée--
+MsgUnknownButton=Bouton Inconnu
+MsgUnknownReportType=Type de rapport inconnu
+
+#To-Do List elements
+#todo: handle dropdown --select--
+###########################################################
+LblMachineType=Type de machine
+LblMachineCompliance=Conformité des machines (Tests obligatoires)
+LblMandatoryTests=Tests obligatoires
+LblTestList=Liste de tests
+LblShowLastRun=Afficher la dernière exécution
+
+ColTestName=Nom du Test
+ColCompleted=Terminé
+ColComplianceStatus=Statut de conformité
+ColLastRunOn=Dernière exécution le
+ColLastRunBy=Dernière exécution par
+ColLastRunStatus=Dernier état d'exécution
+
+#MsgMandatoryTestsComplete=All mandatory tests complete
+#MsgMandatoryTestsInComplete=Mandatory tests incomplete
+ErrMsgNoMachine=Veuillez sélectionner une machine
+ErrMsgNotClinicalDate=Pas une date clinique !
+ErrMsgNoItemsWrkList=Il n'y a aucun élément dans cette liste de tâches.
+
+#Dashboard
+###########################################################
+LblMachineGroup=Groupe de machines
+LblEnableRefresh=Activer le rafraîchissement
+LblAsOfDate=Date de référence
+LblVendor=Fournisseur
+LblModel=Modèle
+LblMandatory=Obligatoire
+LblPerformance=Performance
+LblShowOnlyIssues=Afficher uniquement les problèmes
+LblHideWarnLateTimestamp=Masquer l'horodatage d'avertissement/de retard
+LblAll=Tous
+LblDaily=Quotidien
+LblWeekly=Hebdomadaire
+LblMonthly=Mensuel
+LblOther=Autre
+
+ColEffectiveDate=Date d'entrée en vigueur
+ColMandatory=Obligatoire
+ColCompliance=Conformité
+ColPerformace=Performance
+ColTotal=Total
+ColWarn=Avertir
+ColLate=En retard
+ColPass=Pass
+ColFail=Échec
+ColTestInstance=Instance de test
+ColPeriodStart=Début de la période
+ColPeriodEnd=Fin de période
+ColStatus=Statut
+ColWarningTimestamp=Horodatage d'avertissement
+ColLateTimestamp=Horodatage tardif
+
+BtnBackToDashboard=Retour au tableau de bord
+BtnTestView=Vue de test
+BtnSummaryView=Vue Résumée
+
+MsgNoTests=Aucun test
+
+#Status
+###########################################################
+LblSetStatus=Définir le statut
+LblCurrentStatus=Statut actuel
+LblNewStatus=Nouveau statut
+
+BtnUpdateStatus=Mettre à jour le statut
+
+#Library
+#########################################################
+
+LblBasic=Basique
+LblScheduled=Planifié
+LblTests=Tests
+LblViewTest=Afficher le test
+LblTestInstances=Instances de test
+LblLibrary=Bibliothèque
+
+ColVersion=Version
+
+BtnBack=Retour
+
+MsgNoTestsFound=Aucun test n'a été trouvé pour les critères donnés.
+
+#Events
+##########################################################
+LblEventType=Type d'événement
+#LblTimestamp=Timestamp
+LblType=Type
+LblNewEvent=Nouvel événement
+LblClinicalDateList=Liste des dates cliniques
+LblNewClinicalDate=Nouvelle date clinique
+LblEditClinicalDate=Modifier la date clinique
+
+BtnNewEvent=Nouvel événement
+BtnNewDate=Nouvelle Date
+
+MsgNoClinicalDates=Il n'y a pas de dates cliniques.
+MsgInvalidFormData=Données de formulaire invalides.
+
+#RunTest
+###########################################################
+LblRunTest=Exécuter le test :
+LblMessages=Messages
+LblDeviceOutput=Sortie de l'appareil
+LblUserMachineInput=Entrée de la machine utilisateur
+LblCalibrationEquipGrp=Calibration du groupe d'équipements
+LblSelectA=Sélectionner un(e)
+
+BtnFinished=Terminé
+BtnSelect=Sélectionner
+
+MsgSelection=Veuillez faire une sélection
+
+#ReviewTest/ReviewTestDetail
+#############################################
+ColTester=Tester
+BtnShowRunList=Afficher la liste d'exécution
+BtnShowPlot=Afficher le graphique
+LblNoPlot=Aucun scénario disponible
+LblAssignedRoles=Rôles attribués
+BtnShowInputForm=Afficher le formulaire de saisie
+BtnShowResultForm=Afficher le formulaire de résultats
+BtnReturn=Retour
+LblInputForm=Formulaire de saisie
+LblResultForm=Résultats des tests
+
+#Tests->Test List
+###########################################
+LblIncludeDraft=Inclure le brouillon
+LblEnterNewTestName=Entrez le nom du nouveau test :
+LblNewTest=Nouveau test
+
+ColFinal=Final
+ColTestID=ID de test
+
+BtnNewTest=Nouveau test
+BtnNewBinaryTest=Nouveau test binaire
+
+#Tests->Test List->Edit Test
+#############################################
+LblEditTest=Modifier le test
+LblDraft=Brouillon
+LblScript=Script
+LblProcedure=Procédure
+LblSpecification=Spécification
+LblParentTests=Tests Parent
+LblChildTests=Tests enfants
+LblTestGroups=Groupes de test
+LblScriptType=Type de script
+LblShowParameters=Afficher le paramètre
+LblEquipmentMachine=Équipement/Machine
+LblComplete=Terminé
+LblParameters=Paramètres
+LblUseTestInstanceAsTemplate=Utiliser l'instance de test comme modèle
+LblTestParameters=Paramètres de test
+LblNewParameter=Nouveau paramètre
+LblSelectParameter=Sélectionner le type de paramètre
+LblFormat=Format
+LblPlottable=Plottable
+LblParameter=Paramètre
+LblNewTestInstance=Nouvelle instance de test
+LblEditTestInstance=Modifier l'instance de test
+LblEditTestParameter=Modifier le paramètre de test
+LblEditTestInstanceParameter=Modifier le paramètre de l'instance de test
+LblRelationships=Relations
+LblUnits=Unités
+LblValue=Valeur
+LblEditEquipmentParameter=Modifier le paramètre de l'équipement
+LblEditCalibrationParameter=Modifier le paramètre de calibration
+LblEditSourceParameter=Modifier le paramètre source
+LblEditComponentParameter=Modifier le paramètre du composant
+LblSelectParameterType=Sélectionner le type de paramètre
+
+BtnExport=Export
+BtnPreviousVersion=Version précédente
+BtnNewTestInstance=Nouvelle instance de test
+BtnRun=Exécuter
+BtnSchedule=Programme
+BtnCreate=Créer
+BtnNewParameter=Nouveau paramètre
+BtnPrevParameter=Paramètre Précédent
+BtnNextParameter=Prochain Paramètre
+
+MsgNoParameters=Aucun paramètre
+MsgNoTestInstances=Aucune instance de test
+MsgNoParamsDefinedForTest=Aucun paramètre défini pour le test
+MsgAllParamsForRunning=Tous les paramètres doivent être définis avant l'exécution !
+MsgInvalidScriptType=Type de script de test invalide !
+MsgCannotBeDraft=L'instance de test doit être complète et le test ne peut pas être en brouillon !
+MsgAllParamsForSaving=Tous les paramètres doivent être définis avant de sauvegarder !
+MsgDefineParams=L'instance de test a été créée, les paramètres doivent être définis
+MsgTestInstanceExists=Une instance de test portant le même nom existe déjà
+MsgTestInstanceSaved=Instance de test enregistrée
+MsgTestInstanceDeleted=Instance de test supprimée
+
+#Tests->Test Groups
+#########################################
+LblTestGroupsList=Liste des groupes de test
+LblEditTestGroup=Modifier le groupe de test
+LblNewTestGroup=Nouveau groupe de test
+
+BtnNew=Nouveau
+BtnEdit=Modifier
+
+#Tests->File Upload
+##########################################
+LblTest=Test
+LblSelectZipFile=Veuillez sélectionner un fichier zip à télécharger :
+LblUploadedTests=Tests téléchargés
+LblUploadedPolicies=Politiques téléchargées
+
+ColId=Id
+ColPolicyName=Nom de la politique
+
+BtnUploadZip=Télécharger Zip
+
+MsgProblemWithImportFile=Problème avec le fichier d'importation.
+
+#Tests->Test Merge
+###############################################
+LblOldTestInstance=Ancienne instance de test
+
+#Scheduling
+###############################################
+LblScheduleSearchResults=Résultats de recherche d'horaire
+LblUserOrGroup=Utilisateur ou Groupe
+LblEquipment=Équipement
+LblTimePeriod=Période de temps
+LblListOrder=Ordre de la liste
+LblScheduleSearch=Recherche d'horaires
+LblNewSchedule=Nouveau planning
+LblEditSchedule=Modifier le planning
+ColUserOrGroup=Utilisateur ou Groupe
+ColListOrder=Ordre de la liste
+
+BtnNewSchedule=Nouveau planning
+
+MsgNoSchedules=Il n'y a pas de plannings correspondant aux critères donnés
+
+#Equipment->Machines
+#########################################
+
+LblShowInactive=Afficher inactif
+LblMachines=Machines
+LblNewMachine=Nouvelle Machine
+LblEditMachine=Modifier la machine
+LblSerialNumber=Numéro de série
+LblCommisionStartDate=Date de début/Commission
+LblDecommisionEndDate=Date de mise hors service/fin
+LblTimezone=Fuseau horaire
+LblClinicalDates=Dates Cliniques
+LblActive=Actif
+#LblAccessViaElektaIntegrity=Access via Elekta Integrity
+LblMachineAsTemplate=Machine comme Modèle
+LblMachineComponents=Composants de machine
+LblMachCompTestInst=Composants de machine et instances de test
+LblMachCompTestInstSche=Composants de machine, instances de test et plannings
+LblExpiryDate=Date d'expiration
+LblSources=Sources
+LblNewSource=Nouvelle Source
+LblEditSource=Modifier la source
+LblIsotope=Isotope
+LblHalfLife=Demi-vie (jours)
+LblSourceSN=Source S/N
+LblAKS=AKS
+LblAKSUnit=Unité AKS
+LblReferenceDate=Date de référence
+LblReferenceHour=Heure de référence
+LblCurrentSource=Source actuelle
+LblCalibrations=Calibrations
+LblNewCalibration=Nouvelle Calibration
+LblEditCalibration=Modifier la calibration
+LblCalibrationFactor=Facteur de calibration
+LblCalibrationDate=Date de calibration
+LblBeginDate=Date de début
+
+ColModel=Modèle
+ColMachineType=Type de machine
+ColActive=Actif
+ColSourceSN=Source S/N
+ColAKS=AKS
+ColReferenceDate=Date de référence
+ColCurrentSource=Source actuelle
+ColSerialNumber=Numéro de série
+ColCalibration=Calibration
+ColUnits=Unités
+ColCalibrationDate=Date de calibration
+ColExpirtyDate=Date d'expiration
+ColEndEffectiveDate=Date de fin d'effet
+
+BtnNewMachine=Nouvelle Machine
+BtnSources=Sources
+BtnNewSource=Nouvelle Source
+BtnCalibrations=Calibrations
+BtnNewCalibration=Nouvelle Calibration
+BtnSaveAndMakeCurrent=Enregistrer et définir comme actuel
+
+MsgNoCalibrations=Il n'y a pas de calibrations
+MsgNoSources=Aucune source
+
+
+#Equipment->Machine Types
+#########################################
+LblMachineTypes=Types de machines
+LblEditMachineType=Modifier le type de machine
+LblIncludesCalibrations=Comprend les calibrations
+LblIncludesSources=Inclut les sources
+
+ColCalibrations=Calibrations
+ColSources=Sources
+
+BtnNewMachineType=Nouveau Type de Machine
+
+#Equipment->Machine Groups
+#########################################
+LblMachineGroups=Groupes de Machines
+LblNewMachineGroup=Nouveau groupe de machines
+LblEditMachineGroup=Modifier le groupe de machines
+LblEnableInDashboard=Activer dans le tableau de bord
+LblEditMachineOrGroup=Modifier Machine/Groupe
+
+ColEnabledInDashboard=Activé dans le tableau de bord
+
+#Equipment->Machine Components
+#########################################
+LblMachineComponentTypes=Types de composants de machine
+LblEditMachineComponentType=Modifier le type de composant de la machine
+LblParentMachineComponentType=Type de composant de machine parent
+LblTestInstanceFlag=Indicateur d'instance de test
+LblMultipleSelection=Sélection multiple
+LblMapableToMachine=Cartographiable par une machine
+LblShowMetadata=Afficher les métadonnées
+LblMachineComponentList=Liste des composants de la machine
+LblEditMachineComponent=Modifier le composant de la machine
+LblStartDate=Date de début
+LblParent=Parent
+LblInternalName=Nom Interne
+LblMachineComponentAttributes=Attributs des composants de la machine
+LblMachineComponentMetadata=Métadonnées des composants de la machine
+LblRangeLowValue=Valeur Basse de la Plage
+LblRangeHighValue=Valeur Élevée de la Plage
+LblRangeLabel=Étiquette de plage
+LblNewMachineComponentMetadata=Nouveau Métadonnées de Composant de Machine
+LblEditMachineComponentMetadata=Modifier les métadonnées du composant de la machine
+LblEditMachineComponentAttribute=Modifier l'attribut du composant de la machine
+LblSelectForTrue=Sélectionner pour VRAI
+
+ColTestInstanceName=Nom de l'instance de test
+ColMultipleSelection=Sélection multiple
+ColParentName=Nom du parent
+ColSetting=Paramètre
+ColVendor=Fournisseur
+ColBeginDate=Date de début
+ColEndDate=Date de fin
+
+BtnViewParent=Voir le parent
+
+MsgNoAttributes=Aucun attribut
+MsgNoMetadata=Aucune métadonnée
+MsgNoMachineComponents=Aucun composant de machine
+
+#Equipment->Machine Component Mapping
+#########################################
+LblMachineComponentMapping=Cartographie des composants de la machine
+LblMachineComponentType=Type de composant de machine
+
+ColMachineComponentType=Type de composant de machine
+
+
+#Equipment->Workstations
+#########################################
+LblWorkstations=Stations de travail
+LblEditWorkstation=Modifier la station de travail
+
+LblAssociatedMachine=Machine associée
+LblWorkstationType=Type de poste de travail
+LblIPAddress=Adresse IP
+LblPort=Port
+LblLinacID=Identifiant Linac
+
+ColIPAddress=Adresse IP
+
+# Compliance->Machine Compliance
+#################################################
+LblComplianceElements=Éléments de conformité
+LblEditComplianceElement=Modifier les éléments de conformité
+LblSectioName=Nom de la section
+LblSectionType=Type de section
+LblTestGroup=Groupe de test
+LblOrder=Commande
+
+ColSectionName=Nom de la section
+ColSectionType=Type de section
+ColTestGroup=Groupe de test
+ColOrder=Commande
+
+BtnNewComplianceElement=Nouvel élément de conformité
+BtnEditTestGroup=Modifier le groupe de test
+
+MsgNothingToDelete=Rien à supprimer
+
+# Compliance->Policy Compliance
+#################################################
+
+LblMapPolicy=Politique de carte
+LblPublished=Publié
+LblApplyToMachine=Appliquer à la machine
+LblPolicySection=Section Politique
+LblScheduledTo=Prévu pour
+LblPolicyImplementation=Mise en œuvre de la politique
+
+ColPolicySection=Section Politique
+ColPolicyTest=Test de politique
+
+MsgNoMappings=Aucune correspondance
+
+# System Data->Time Periods
+######################################################
+LblTimePeriods=Périodes de temps
+LblEditTimePeriod=Modifier la période
+LblRepeats=Répétitions
+LblGranularity=Granularité
+LblWarningDays=Avertissement (jours)
+LblLateDays=En retard (jours)
+LblDefaultPlot=Parcelle par défaut (jours)
+
+ColWarningDays=Jours d'avertissement
+ColLateDays=Jours de retard
+ColDefaultPlotDays=Jours de tracé par défaut
+
+BtnNewTimePeriod=Nouvelles périodes
+
+MsgCreAndDelNotSup=La création et la suppression de périodes ne sont pas prises en charge
+
+# System Data->Holidays
+######################################################
+LblHolidays=Vacances
+LblNewHoliday=Nouveau jour férié
+LblEditHoliday=Modifier les vacances
+
+BtnNewHoliday=Nouvelle fête
+
+MsgNoHolidays=Il n'y a pas de jours fériés définis.
+
+# System Data->Units
+######################################################
+
+BtnNewUnit=Nouvelle Unité
+LblEditUnit=Modifier l'unité
+
+# System Data->Test Runs
+######################################################
+LblSearchTestRuns=Rechercher des exécutions de tests
+LblResultingRuns=Résultats des exécutions
+
+# System Data->System Settings
+######################################################
+LblSystemSettings=Paramètres du système
+LblNewSystemSetting=Nouveaux paramètres système
+LblEditSettings=Modifier les paramètres
+LblSetting=Paramètre
+
+BtnNewSystemSetting=Nouveau Système
+MsgNoSystemSettings=Il n'y a pas de paramètres système.
+
+# Plot Data
+######################################################
+plotData=Tracer les données
+LblTestPlot=Test du graphique
+LblEventTypes=Types d'événements
+
+BtnGenerateChart=Générer un graphique
+
+# Plotting Tool
+######################################################
+PT_DownloadJPEG=Télécharger JPEG
+PT_DownloadPDF=Télécharger le PDF
+PT_DownloadPNG=Télécharger PNG
+PT_DownloadSVG=Télécharger SVG
+PT_DownloadCSV=Télécharger CSV
+PT_btnExport=Exporter
+PT_lblLoading=Chargement
+PT_lblEvents=Événements
+PT_btnPrint=Imprimer
+PT_btnResetZoom=Réinitialiser le zoom
+PT_thousandsSeparator=,
+PT_FullMonths=Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre
+PT_ShortMonths=Jan,Fév,Mar,Avr,Mai,Juin,Juil,Août,Sep,Oct,Nov,Déc
+PT_Weekdays=Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi
+PT_WeekdaysShort=Dim, Lun, Mar, Mer, Jeu, Ven, Sam
+PT_zoomOut=Dézoomer
+PT_toggleBaselines=Basculer les lignes de base
+PT_toggleAllEvents=Basculer tous les événements
+PT_toggleEvents=Basculer les événements
+PT_absolutePlot=Intrigue absolue
+PT_relativeDifferencePlot=Graphique de différence relative
+PT_differencePlot=Graphique de différence
+
+# Reports
+######################################################
+LblReport=Rapport
+LblDownDays=Jours d'arrêt
+LblTreatmentDays=Jours de traitement
+LblSummaryOnly=Résumé uniquement
+LblCondensedForm=Forme condensée
+#LblBtnGenerate=Generate
+LblFileFormat=Format de fichier
+LblIncludeSystemData=Inclure les données système
+
+# Form Controls - Selection Control
+######################################################
+SC_btnOK=D'accord
+SC_btnCancel=Annuler
+SC_lblSelection=Sélection
+SC_lblAvailableItems=Articles disponibles
+SC_lblSelectedItems=Éléments sélectionnés
+
+# Form Controls - ListBox Control (empty elements)
+######################################################
+LB_lblAll=-- Tous --
+LB_lblSelect=-- Sélectionner --
+LB_lblNone=(Aucun)
+
+
+
+################################################################################
+#AQUA 1.2 Version New Addition
+################################################################################
+
+# LOG IN SCREEN/SIGN OUT BUTTON
+############################################################
+
+SgnOutButton=Déconnexion
+
+# Screen titles (for secondary nav bar)
+###########################################
+#Equipment
+ScrMachineReference=Référence Machine
+ScrSoftware=Interface
+#System Data
+ScrLicense=Licence
+ScrNotification=Notification
+
+#common
+#############################################################
+
+LblNotificationList=Liste de notifications
+LblRecipientEmail=Adresse e-mail du destinataire
+LblRecipient=Destinataire
+LblEvent=Événement
+LblModelCode=Code du modèle
+
+#Tests->Test List->Edit Test
+#############################################
+
+LblProvenance=Provenance
+LblNewSecondaryParameter=Nouveau paramètre secondaire
+LblEditSecondaryParameter=Modifier le paramètre secondaire
+LblSelectionType=Type de sélection
+LblSelectionValue=Valeur de sélection
+LblSelectEquipment=Sélectionner l'équipement
+
+#Scheduling
+###############################################
+
+LblAnchorDate=Date de référence
+
+#Equipment->Machines
+#########################################
+#LblAccessViaElektaIntegrity=Access via Elekta Integrity
+
+LblShowTestInstances=Afficher les instances de test
+LblMode=Mode
+LblComponent=Composant(s)
+LblShowHistory=Afficher l'historique
+
+#Equipment->Machine Components
+#########################################
+
+LblVector=Vecteur
+LblVectorSize=Taille du vecteur
+
+# Equipment->Machine Reference
+##########################################
+
+LblMachineReferenceType=Type de Référence de Machine
+LblEditMachineReferenceType=Modifier le type de référence de la machine
+LblNewMachineReferenceType=Nouveau type de référence de machine
+LblMachineReferenceMetadata= Métadonnées de Référence Machine
+LblNewMachineReferenceMetadata=Nouvelle Référence de Métadonnées Machine
+LblEditMachineReferenceMetadata=Modifier les métadonnées de référence de la machine
+
+#Equipment->Workstations
+#########################################
+
+LblSoftware=Interface
+ColSoftware=Interface
+
+#Equipment->Interface
+#########################################
+
+LblEditSoftware=Interface d'édition
+LblRequestDirectory=Répertoire de demandes
+LblResponseDirectory=Répertoire des réponses
+LblConnection=Connexion
+LblCategory=Catégorie
+LblAssociatedWith=Associé à
+
+# System Data->Time Periods
+######################################################
+ColComplianceFully=Entièrement conforme
+ColComplianceAcceptable=Acceptable
+ColComplianceFollowUp=Nécessite un suivi
+LblComplianceReportSettings=Paramètres du rapport de conformité
+
+# System Data->License
+######################################################
+
+LblLicense=Licence
+ColLicenseAllocation=Licences
+ColLicenseUsed=Licences utilisées
+
+# Form Controls - ListBox Control (empty elements)
+######################################################
+LblMachineComponentsReference=Composants de la machine/Référence
+LblMachineReference=Référence Machine
+LblNewMachineReference=Nouvelle Référence Machine
+LblEditMachineReference=Modifier la référence de la machine
+LblEditMachineReferenceAttribute=Modifier l'attribut de référence de la machine
+ScrMachineReferenceAttribute=Attribut de Référence de Machine
+MsgNoReference=Aucune donnée de référence
+LblLabelUnits=Libellé des unités
+LblVectorLabel=Vecteur d'étiquette
+BtnGenerate=Générer
+
+
+################################################################################
+#AQUA 2.0 Version New Addition
+################################################################################
+
+
+LblShowForThisWorkstation=Afficher pour ce poste de travail
+LblAutoSchedule=Planification automatique
+LblHour=Heure
+LblMinute=Minute
+LblMachineTemplates=Modèles de machine
+LblShowTemplates=Afficher les modèles
+LblNewMachineTemplate=Nouveau modèle de machine
+LblEditMachineTemplate=Modifier le modèle de machine
+LblConfirmation=Confirmation
+MsgDeleteConfirmation=Êtes-vous sûr de vouloir supprimer ? Cette action est irréversible.
+
+MsgNewChildTestInstance=Une nouvelle instance de test doit être créée via le test parent.
+LblNonDraft=Non-brouillon
+LblIncludeDraftTests=Inclure les tests de brouillon
+LblTestRunList=Liste des exécutions de test
+LblRevisionOfRun=Révision de l'exécution
+LblRunID=ID d'exécution
+LblPaginationShowing=Affichage
+LblPaginationOf=de
+LblCommentForRevisionRun=Le test est une révision du test #
+
+AppDescription=Confiance dans les soins
+LblNotificationHeader=Notification AQUA
+LblInclude=Inclure
+LblSchedules=Horaires
+LblEffectiveDate=Date d'entrée en vigueur
+MsgUntrustedLocation=Cette station de travail n'a pas été ajoutée en tant qu'emplacement de confiance. Veuillez contacter le support AQUA si vous avez besoin d'aide.
+
+LblTestRuns=Exécutions de tests
+MsgTestFailed=Test échoué
+LblTestComments=Commentaires de test
+LblTestForm=Formulaire de test
+LblTestOutput=Résultat du test
+LblTestImages=Images de test
+LblUploadImage=Télécharger l'image
+LblAQUASystemAlert=Alerte Système AQUA
+LblTPIBrandingPrefix=Données fournies par
+
+LblAddComment=Ajouter un commentaire
+LblCommentHeader=Commentaire :
+
+MsgMustSelectTest=Vous devez sélectionner un test à exécuter.
+
+BtnAdd=Ajouter
+
+BtnYes=Oui
+BtnNo=Non
+
+BtnReviseTestRun=Réviser l'exécution du test
+
+
+
+
+################################################################################
+#  AQUA 2.0.1   Version New Additions
+################################################################################
+
+BtnPrevAttribute=Attribut Précédent
+BtnNextAttribute=Prochain Attribut
+
+MsgSessionExpired=Votre session a expiré. Veuillez saisir à nouveau vos identifiants pour continuer.
+BtnUserProfile=Profil Utilisateur
+MsgNotLocalAccount=Pas un compte local
+MsgPasswordsDontMatch=Les mots de passe ne correspondent pas.
+MsgIncorrectPassword=Mot de passe incorrect
+MsgPasswordChanged=Mot de passe changé avec succès, veuillez vous reconnecter avec le nouveau mot de passe
+LblUserName=Nom d'utilisateur
+LblFirstName=Prénom
+LblLastName=Nom de famille
+BtnChangePassword=Changer le mot de passe
+LblCurrentPassword=Mot de passe actuel
+LblNewPassword=Nouveau mot de passe
+LblNewPasswordAgain=Confirmer le nouveau mot de passe
+BtnSavePassword=Enregistrer le mot de passe
+
+
+
+
+################################################################################
+#  AQUA 3.0   Version New Additions
+################################################################################
+
+
+LblShowHiddenTestRuns=Afficher les exécutions de test masquées
+ColHidden=Caché
+ColUserName=Utilisateur
+MsgNoChangesMade=Aucune modification apportée
+ColFilename=Nom de fichier
+ColSizeMB=Taille (Mo)
+BtnShowFile=Afficher le fichier
+MsgNoFileForUpload=Aucun fichier sélectionné pour le téléchargement
+MsgPDFOnlyForUpload=Seuls les PDF peuvent être joints
+LblEditReferenceParameter=Modifier le paramètre de référence
+LblNewReferenceParameter=Nouveau paramètre de référence
+LblSelectReference=Sélectionner la référence
+LblAttachFileDialog=Joindre un fichier
+LblUploadFile=Télécharger le fichier :
+LblAttachedFilesList=Fichiers joints
+LblAttachFileButton=Joindre un fichier
+
+LblTranslations=Traductions de Code
+LblNewTranslation=Nouvelle Traduction
+LblEditTranslation=Modifier la traduction
+LblFromInterface=Depuis l'interface
+LblToInterface=À l'interface
+LblInterfaceClass=Classe d'Interface
+LblInterfaceType=Type d'interface
+LblInterfaceValue=Valeur de l'interface
+LblInterfaceToClass=Classe
+LblInterfaceToType=Type
+LblInterfaceToValue=Valeur
+
+BtnEditOrdering=Modifier l'ordre
+LblScheduleOrdering=Planification des commandes
+LblMachineOrdering=Commande de machine
+
+LblRequired=Requis
+
+ScrUnauthorized=Accès non autorisé
+MsgNoPermissions=Vous n'avez pas les autorisations requises pour accéder à cette page
+
+LblIncludeOptionalSection=Inclure dans le rapport de conformité (section facultative)
+LblIncludeMandatorySection=Inclure dans le rapport de conformité (section obligatoire)
+
+ScrDomains=Domaines
+LblEditDomainType=Modifier le type de domaine
+LblEditDomain=Modifier le domaine
+LblNewDomain=Nouveau domaine
+LblDomainType=Type de domaine
+LblDomainTypeList=Liste des types de domaine
+LblDomainList=Liste des domaines
+
+LblMachineTypeGroups=Groupes de types de machines
+LblNewMachineTypeGroup=Nouveau groupe de types de machines
+LblEditMachineTypeGroup=Modifier le groupe de type de machine
+
+BtnNewVersion=Nouvelle Version
+
+MsgSelectCriteria=Saisissez un nom ou faites une sélection à partir d'une ou plusieurs des listes
+LblReversible=Réversible
+
+ColTime=Temps
+ColIncludeInPlot=Inclure dans le graphique
+
+BtnCopy=Copier
+LblEnterNewName=Entrez le nouveau nom :
+LblAttachImage=Joindre une image
+
+MsgNoAnalysisParameters=Aucun paramètre d'analyse
+LblMetadata=Métadonnées
+LblAnalysis=Analyse
+LblSurfaceInCm=Surface (cm)
+LblAnalyze=Analyser
+LblPlot=Parcelle
+LblProtocol=Protocole
+LblNormalization=Normalisation
+LblShiftInCm=Décalage (cm)
+BtnSaveAndPlot=Enregistrer et tracer
+
+ColPolicySubsection=Sous-section de la politique
+MsgPolicyMappingCompleted=Mappage de la politique terminé
+
+LblExtendedLog=Journal étendu
+
+LblNSSIPAddress=Adresse IP NSS/NMaS
+LblTestConnection=Tester la connexion
+
+MsgMandatoryTestsComplete=Tous les tests obligatoires ont soit réussi, soit ne sont pas encore dus
+MsgMandatoryTestsInComplete=Un ou plusieurs tests obligatoires ont échoué ou sont en retard
+MsgMandatoryStatus=Statut obligatoire
+
+ScrApprovals=Approbations
+LblApprovalStatus=Statut d'approbation
+LblNotApproved=Non approuvé
+ColApprovalTime=Temps d'approbation
+ColApprover=Approbateur
+ColApproved=Approuvé
+ColApprovalStatus=Statut d'approbation
+BtnSelectAll=Sélectionner tout et enregistrer
+MsgNoTestRuns=Aucun test effectué
+
+
+MsgNoTestApproverPermission=Seuls les utilisateurs ayant le rôle d'approbateur de test AQUA peuvent accéder à cet écran.
+
+BtnApprove=Approuver
+BtnUnapprove=Désapprouver
+ColCommentType=Type
+LblAlert=Alerte
+MsgPreviousRunApproved=Le test précédent est déjà approuvé. Veuillez notifier l'approbateur après avoir relancé le test.
+MsgReasonForRerun=Raison du nouveau test
+
+LblRenameTest=Renommer le test
+LblSelectAny2=sélectionnez-en 2
+
+BtnUpload=Téléverser
+LblEditMapParameter=Modifier le paramètre de la carte
+LblEnterNewName=Entrez le nouveau nom :
+LblFile=Fichier
+LblFileType=Type de fichier
+LblMappedTest=Test cartographié
+LblMappedTestInstance=Instance de test mappée
+LblMeasurementDate=Date de mesure
+LblNewMapParameter=Nouveau paramètre de carte
+LblNewWorkstation=Nouvelle Station de Travail
+LblOptional=Optionnel
+LblSelectA=Sélectionner un(e)
+LblUploadMachineReference=Télécharger la référence de la machine
+LblWarningsErrors=Avertissements/Erreurs
+MsgNoComments=Il n'y a pas de commentaires.
+MsgProblemWithDeleteFile=Problème de suppression du fichier.
+LblLinacName=Nom Externe
+SgnCopyright=Tous droits réservés.
+
+BtnContinue=Continuer
+MsgNewVersionMachineReferenceType=Cette action créera une nouvelle version de ce type de référence de machine. Toutes les références de machine actuelles de ce type seront marquées comme incomplètes. Complétez les références de machine applicables après la création de la nouvelle version. Voulez-vous continuer ?
+
+LblLinacIDExternalName=Identifiant Linac/Nom Externe
+
+LblSourceTestInstance=Instance de Test Source
+LblSDestinationTestInstance=Instance de test de destination
+LblSourceTest=Test source
+LblSDestinationTest=Test de destination
+
+MsgCommentTooLong=Commentaire trop long
